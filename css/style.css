@@ -888,6 +888,8 @@ support for no js
 
 /*==========  Mobile  ==========*/
 @media only screen and (max-width : 478px) {
+
+
 	.slider-bg-white-cap {
 		display:block;
 		visibility:visible;
@@ -937,6 +939,10 @@ support for no js
 		font-size: 24px !important;
 		line-height: 24px !important;
 	}
+
+  .logo-row{
+    padding-left: 100px;
+  }
 }
 @media only screen and (min-width : 479px) and (max-width : 736px){ 
 	.hide-0-736, .hide-479-736 {
@@ -1081,6 +1087,19 @@ support for no js
 
 /* #FEATURES 2-3 #NEW
 =====================================================*/
+@media screen and (min-width: 1080px) and (max-width: 1920px){
+  .header .container-m-30{
+    height: 93px;
+  }
+
+
+
+  .header.no-transparent .logo-2 {
+
+    width: 400px;
+}
+}
+
 
 @media only screen and (min-width: 992px) {
   .left-50{
@@ -1227,6 +1246,8 @@ support for no js
 
 
 @media only screen and (max-width : 768px) {
+
+
   .container {
     padding-left:20px;
     padding-right:20px;
@@ -3755,7 +3776,7 @@ background:none;
 } 
 .header .container-m-30 {
 	position: relative;
-  height: 93px;
+  
 }
 .header-no-bg, .header-no-bg .header-wrapper {
 	background: none;
@@ -3858,7 +3879,7 @@ header.affix .logo .logo-img {
 .header.no-transparent .logo-2 {
   background-color: transparent;
 	padding:26px 0 25px 0;
-  width: 400px;
+    
 }
 
 /* #BREADCRUMB 
@@ -7871,6 +7892,7 @@ h2.portfolio-timeline-title {
 	  padding: 0 20px;
 	}	
 	.hamb-mob-icon {
+
 	  display: block;
 	  float: left;
 	  padding: 25px 17px 22px 5px; 
